@@ -971,7 +971,7 @@ def create_a_github_action():
 
 
 def push_an_image_to_docker_hub() -> str:
-   return "hhttps://hub.docker.com/repository/docker/vatchala/tds-project/general"
+   return "https://hub.docker.com/repository/docker/vatchala/tds-project/general"
 
 
 
