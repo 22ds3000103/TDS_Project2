@@ -393,7 +393,7 @@ def replace_across_files(file_path):
 
 
 
-def list_files_and_attributes(file_path, min_size=6262, reference_date="2019-03-22 14:31:00", timezone="Asia/Kolkata", debug=False):
+def list_files_and_attributes(file_path, min_size=9790, reference_date="2023-05-02 11:35:00", timezone="Asia/Kolkata", debug=False):
     """
     Download and extract a zip file, list all files with their date and file size,
     and calculate the total size of files meeting specific criteria.
