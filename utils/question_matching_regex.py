@@ -871,6 +871,18 @@ We'll check by sending a request to this URL with ?country=... passing different
     Download the data from
 
     What is the total sales value?""",
+    """Your task as a data analyst at EngageMetrics is to write a query that performs the following:
+
+    Filter Posts by Date: Consider only posts with a timestamp greater than or equal to a specified minimum time (2025-01-28T21:36:31.398Z), ensuring that the analysis focuses on recent posts.
+    Evaluate Comment Quality: From these recent posts, identify posts where at least one comment has received more than a given number of useful stars (5). This criterion filters out posts with low or mediocre engagement.
+    Extract and Sort Post IDs: Finally, extract all the post_id values of the posts that meet these criteria and sort them in ascending order.
+    By accurately extracting these high-impact post IDs, EngageMetrics can:
+
+    Enhance Reporting: Provide clients with focused insights on posts that are currently engaging audiences effectively.
+    Target Content Strategy: Help marketing teams identify trending content themes that generate high-quality user engagement.
+    Optimize Resource Allocation: Enable better prioritization for content promotion and further in-depth analysis of high-performing posts.
+    Write a DuckDB SQL query to find all posts IDs after 2025-01-28T21:36:31.398Z with at least 1 comment with 5 useful stars, sorted. The result should be a table with a single column called post_id, and the relevant post IDs should be sorted in ascending order.
+    Check the console for the result of your query.""",
     """Log Analysis for DataSure Technologies
     DataSure Technologies is a leading provider of IT infrastructure and software solutions, known for its robust systems and proactive maintenance practices. As part of their service offerings, DataSure collects extensive logs from thousands of servers and applications worldwide. These logs, stored in JSON format, are rich with information about system performance, error events, and user interactions. However, the logs are complex and deeply nested, which can make it challenging to quickly identify recurring issues or anomalous behavior.
 
@@ -896,18 +908,6 @@ We'll check by sending a request to this URL with ?country=... passing different
     Download the data from
 
     How many times does K appear as a key?""",
-    """Your task as a data analyst at EngageMetrics is to write a query that performs the following:
-
-    Filter Posts by Date: Consider only posts with a timestamp greater than or equal to a specified minimum time (2025-01-28T21:36:31.398Z), ensuring that the analysis focuses on recent posts.
-    Evaluate Comment Quality: From these recent posts, identify posts where at least one comment has received more than a given number of useful stars (5). This criterion filters out posts with low or mediocre engagement.
-    Extract and Sort Post IDs: Finally, extract all the post_id values of the posts that meet these criteria and sort them in ascending order.
-    By accurately extracting these high-impact post IDs, EngageMetrics can:
-
-    Enhance Reporting: Provide clients with focused insights on posts that are currently engaging audiences effectively.
-    Target Content Strategy: Help marketing teams identify trending content themes that generate high-quality user engagement.
-    Optimize Resource Allocation: Enable better prioritization for content promotion and further in-depth analysis of high-performing posts.
-    Write a DuckDB SQL query to find all posts IDs after 2025-01-28T21:36:31.398Z with at least 1 comment with 5 useful stars, sorted. The result should be a table with a single column called post_id, and the relevant post IDs should be sorted in ascending order.
-    Check the console for the result of your query.""",
     """Enhancing Accessibility and Content Analysis for Mystery Audiobooks
     Mystery Tales Publishing is an independent publisher specializing in mystery and suspense audiobooks. To broaden their audience and improve accessibility, they have been uploading narrated versions of their stories to YouTube. In addition to reaching visually impaired users, they want to leverage transcripts for content summarization, search indexing, and social media promotion.
 
