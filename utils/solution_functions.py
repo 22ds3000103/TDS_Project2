@@ -93,7 +93,7 @@ def make_http_requests_with_uv(url="https://httpbin.org/get", query_params=None)
         return None
         
 def run_command_with_npx():
-    return "36d3b7f84456ac4ebd9c3bdc16d498b7c1cb90f4c9c1fa51f8367f78d94c2251  -"
+    return "c63efd87bb6444bc2c8fb4e7f96106cbc70306d412f49872928dda4953ea4057  -"
 
 def use_google_sheets(rows=100, cols=100, start=5, step=4, extract_rows=1, extract_cols=10):
     matrix = np.arange(start, start + (rows * cols * step), step).reshape(rows, cols)
@@ -145,11 +145,11 @@ def use_excel(values=None, sort_keys=None, num_rows=1, num_elements=2):
 def use_devtools():
 
     # Change the secret_code according to your code
-    secret_code = "z1i56itvlr"
+    secret_code = "t5fd86btsp"
     return secret_code
 
 
-def count_wednesdays(start_date="1990-04-08", end_date="2008-09-29", weekday=2):
+def count_wednesdays(start_date="1984-11-24", end_date="2011-09-13", weekday=2):
     start = datetime.strptime(start_date, "%Y-%m-%d")
     end = datetime.strptime(end_date, "%Y-%m-%d")
     count = sum(
@@ -239,7 +239,7 @@ def use_json(input_data: str, from_file: bool = False) -> str:
 
 
 def css_selectors():
-    return "227"
+    return "349"
 
 def process_files_with_different_encodings(file_path=None):
     """
@@ -310,7 +310,7 @@ def process_files_with_different_encodings(file_path=None):
 
 def use_github():
     # Change the return value based on your answer.
-    return "https://raw.githubusercontent.com/Sarthak-Sama/Temp-IIT-Assignment-Question/refs/heads/main/email.json"
+    return "https://raw.githubusercontent.com/22ds3000103/ga1/refs/heads/main/email.json"
 
 
 def replace_across_files(file_path):
@@ -864,7 +864,7 @@ def host_your_portfolio_on_github_pages(email):
         "23f3000709@ds.study.iitm.ac.in": "https://sarthak-sama.github.io/my-static-site/", # Sarthak
         "23f2000942@ds.study.iitm.ac.in":"https://23f2000942.github.io/tds-ga2/", # Aditi
         "23f2005217@ds.study.iitm.ac.in": "https://girishiitm.github.io/GirishIITM/", # Girish
-        "22ds3000103@ds.study.iitm.ac.in":"https://22ds3000103.github.io/vatchala", # Vatchala
+        "22ds3000103@ds.study.iitm.ac.in":"https://22ds3000103.github.io/VATCHALA/", # Vatchala
         "23f1002279@ds.study.iitm.ac.in":"https://23f1002279.github.io/TDS_W2_GIT/", # Shivam
         "22f3002560@ds.study.iitm.ac.in":"https://raw.githubusercontent.com/HolyGrim/email.json/refs/heads/main/email.json", # Prabhnoor
         "22f3001882@ds.study.iitm.ac.in": "https://22f3001882.github.io/tds-week2-question/", # Yash
@@ -955,7 +955,7 @@ def use_an_image_library_in_google_colab(image_path=None):
             )
             
             # Count pixels with lightness above threshold
-            light_pixels = np.sum(lightness > 0.683)
+            light_pixels = np.sum(lightness > 0.913)
             
             return str(light_pixels)
         
@@ -967,11 +967,11 @@ def deploy_a_python_api_to_vercel():
 
 
 def create_a_github_action():
-    return ""
+    return "https://github.com/22ds3000103/vat23_github-action-test"
 
 
 def push_an_image_to_docker_hub() -> str:
-   return "https://hub.docker.com/repository/docker/sarthak709/my-docker-app/general"
+   return "hhttps://hub.docker.com/repository/docker/vatchala/tds-project/general"
 
 
 
@@ -2025,10 +2025,10 @@ def find_newest_github_user(location, followers, operator):
 
 
 def create_a_scheduled_github_action(
-    repo_owner="veershah1231",           
-    repo_name="tdsGA4",               
+    repo_owner="22ds3000103",           
+    repo_name="tdsga4",               
     token={os.getenv("GITHUB_ACTION_TOKEN")},  # Set default to required token
-    email="23f3000709@ds.study.iitm.ac.in",  # Set default to required email
+    email="22ds3000103@ds.study.iitm.ac.in",  # Set default to required email
     cron="30 2 * * *",                   
     workflow_name="daily-commit.yml"     
 ):
